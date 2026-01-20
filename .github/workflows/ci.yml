@@ -3,7 +3,7 @@ name: cdk-deploy
 on: workflow_dispatch
 
 env: 
-  AWS_REGIONS= ap-south-1
+  AWS_REGION= "ap-south-1"
 
 jobs:
   deploy:
